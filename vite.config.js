@@ -15,6 +15,8 @@ export default defineConfig({
   },
   //TO DEBUG
   // base: import.meta.env.NODE_ENV === "production" ? "/SPARK/" : "/",
+
+  //本地端有問題的話註解掉
     base: "/SPARK/",
 
 })
