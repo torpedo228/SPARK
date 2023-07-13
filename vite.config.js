@@ -12,5 +12,9 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  //TO DEBUG
+  // base: import.meta.env.NODE_ENV === "production" ? "/SPARK/" : "/",
+    base: "/SPARK/",
+
 })
